@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="uft-8" />
+    <title>Avijit Saha</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:ital,wght@1,300&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav id="navBar">
+      <div class="container">
+        <a href="#" class="logo">Avijit Saha</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="Cloud" />
+      <h1>I'm Avijit</h1>
+      <h2>A web designer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="Cloud" />
+      <img src="images/mountain.png" alt="mountain" />
+    </div>
+
+    <div class="middle-container" id="about">
+      <div class="profile">
+        <img
+          src="images/Avijit.jpeg"
+          width="200px"
+          legth="400px"
+          alt="Profile Photo"
+        />
+        <h2>Hello.</h2>
+        <p class="Intro">
+          I am Avijit. A web designer and multipurporse worker.
+        </p>
+      </div>
+      <hr />
+      <div class="skills" id="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img
+            class="dev"
+            src="images/giphy.gif"
+            width="200px"
+            Legth="300px"
+            alt="Design and Devolopment Tool images"
+          />
+          <h3>Design And Devolopment</h3>
+          <p>
+            I started learnig code when am 16 years old. Because I want to build
+            my own games. Besides I have learning design.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img
+            class="des"
+            src="images/illu.gif"
+            width="200px"
+            legth="400px"
+            alt="Illustrator Gif "
+          />
+          <h3>Graphics Design</h3>
+          <p>
+            I love to make new creative things. I am well expert in logo design,
+            poster design and vector art as well.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me" id="contact">
+        <h2>Get In Touch</h2>
+        <h3>I'm here for you.</h3>
+        <p class="contact-massage">
+          If you wanna finding someone for devoloping your website or create
+          logo, postar or other then shoot me a massage.
+        </p>
+        <a class="btn" href="mailto:avijit4kumar@gmail.com ">Contact Me </a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/avijit4kumar"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://twitter.com/avijit4kumar"
+        >Twitter
+      </a>
+      <a class="footer-link" href="https://facebook.com/2vijit"> Facebook </a>
+      <p class="copywrite">©Avijit @SETS-IUB</p>
+    </div>
+
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (document.documentElement.scrollTop > 400) {
+          document.getElementById("navBar").classList.add("navAnimation");
+        } else {
+          document.getElementById("navBar").classList.remove("navAnimation");
+        }
+      }
+    </script>
+  </body>
+</html>
